@@ -12,7 +12,7 @@ env:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -28,5 +28,5 @@ jobs:
     # Artifact name
        name: artifact
     # A file, directory or wildcard pattern that describes what to upload
-       path: /home/runner/work/robin-sr/robin-sr/target
+       path: ${{ env.Wap_Project_Directory }}\target
     # The desired behavior if no files are found using the provided path.
