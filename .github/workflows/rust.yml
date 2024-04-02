@@ -29,5 +29,5 @@ jobs:
        name: github-actions-build
     # A file, directory or wildcard pattern that describes what to upload
        path: |
-            D:\a\robin-sr\robin-sr\target/*.exe
+            D:\a\robin-sr\robin-sr\target
     # The desired behavior if no files are found using the provided path.
