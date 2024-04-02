@@ -28,7 +28,6 @@ jobs:
     # Artifact name
        name: github-actions-build
     # A file, directory or wildcard pattern that describes what to upload
-       path: 
-         D:\a\robin-sr\robin-sr\target\gameserver.exe
-         D:\a\robin-sr\robin-sr\target\sdkserver.exe
+       path: |
+            target/*.exe
     # The desired behavior if no files are found using the provided path.
