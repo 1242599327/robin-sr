@@ -1,3 +1,4 @@
+升级支持2.1.52
 # Run the game by clicking run.bat file
 
 Tool website: [https://freesr-tools.pages.dev](https://freesr-tools.pages.dev)
@@ -37,8 +38,7 @@ cargo install --path sdkserver
 
 ### From Pre-built Binaries
 
-Navigate to the [Releases](https://git.xeondev.com/reversedrooms/RobinSR/releases)
-page and download the latest release for your platform.
+Navigate to the actions page and download the latest release for your platform.
 
 ## Usage
 
@@ -62,8 +62,8 @@ run the following in a terminal:
 ```
 
 ## Connecting
-[Get 2.2 beta client](https://bhrpg-prod.oss-accelerate.aliyuncs.com/client/beta/20240322124944_scfGE0xJXlWtoJ1r/StarRail_2.1.51.zip),
-replace [mhypbase.dll](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/mhypbase.dll) file in your game folder, it will redirect game traffic (and also disable in-game censorship)
+[Get 2.2 beta client](https://bhrpg-prod.oss-accelerate.aliyuncs.com/client/beta/20240329120152_oWX4KYI7n7BjDkbn/StarRail_2.1.52.zip),
+~~replace [mhypbase.dll](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/mhypbase.dll) file in your game folder, it will redirect game traffic (and also disable in-game censorship)~~
 
 ## Contributing
 
