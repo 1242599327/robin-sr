@@ -1,4 +1,5 @@
-升级支持2.1.52
+升级支持2.1.52,支持传送，支持freesr-tools
+
 # Run the game by clicking run.bat file
 
 Tool website: [https://freesr-tools.pages.dev](https://freesr-tools.pages.dev)
@@ -6,9 +7,9 @@ Tool website: [https://freesr-tools.pages.dev](https://freesr-tools.pages.dev)
 Start battle by entering any calyx in the map, DON'T ATTACK THE ENEMIES, IT WON'T WORK
 
 # RobinSR
-Original: [https://git.xeondev.com/reversedrooms/RobinSR/](https://git.xeondev.com/reversedrooms/RobinSR/)
+Original: [https://git.xeondev.com/reversedrooms/RobinSR/](https://git.xeondev.com/reversedrooms/RobinSR/) https://github.com/amizing25/robinsr
 
-A Server emulator for the game [`Honkai: Star Rail`](https://hsr.hoyoverse.com/en-us/)
+A Server emulator for `some game`
 ![screenshot](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/screenshot.png)
 
 ## Installation
@@ -38,7 +39,7 @@ cargo install --path sdkserver
 
 ### From Pre-built Binaries
 
-Navigate to the actions page and download the latest release for your platform.
+Navigate to the [actions](https://github.com/Chenyu550/robin-sr/actions) page and download the latest artifacts for your platform.
 
 ## Usage
 
@@ -62,7 +63,7 @@ run the following in a terminal:
 ```
 
 ## Connecting
-[Get 2.2 beta client](https://bhrpg-prod.oss-accelerate.aliyuncs.com/client/beta/20240329120152_oWX4KYI7n7BjDkbn/StarRail_2.1.52.zip),
+Get 2.2 beta client,
 ~~replace [mhypbase.dll](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/mhypbase.dll) file in your game folder, it will redirect game traffic (and also disable in-game censorship)~~
 
 ## Contributing
