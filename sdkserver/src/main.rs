@@ -44,7 +44,8 @@ async fn main() -> Result<()> {
     let addr = format!("0.0.0.0:{PORT}");
     let server = axum_server::bind(addr.parse()?);
 
-    tracing::info!("sdkserver is listening at {addr}");
+    tracing::info!("SDKServer is listening at {addr}");
+    tracing::info!("LoveFurina编译，适用于CNBETA2.1.52，禁止倒卖");
     server.serve(router.into_make_service()).await?;
 
     Ok(())
