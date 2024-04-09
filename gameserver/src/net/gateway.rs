@@ -7,7 +7,7 @@ use crate::{log_error, net::PlayerSession};
 pub async fn listen(host: &str, port: u16) -> Result<()> {
     let listener = TcpListener::bind(format!("{host}:{port}")).await?;
     tracing::info!("Listening at {host}:{port}");
-    tracing::info!("LoveFurina编译，适用于CNBETA2.1.52，禁止倒卖");
+    tracing::info!("LoveFurina编译，适用于CNBETA2.1.53，禁止倒卖");
     
     loop {
         let Ok((client_socket, client_addr)) = listener.accept().await else {

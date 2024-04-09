@@ -1,4 +1,4 @@
-升级支持2.1.52,支持传送，支持freesr-tools
+升级支持2.1.53,支持传送，支持freesr-tools
 
 # Run the game by clicking run.bat file
 
